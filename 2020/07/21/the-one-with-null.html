@@ -129,24 +129,24 @@ behavior.</p>
 
 <ol>
   <li>Map of Seq[Option[Object]] skips None values
-    <div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">def</span> <span class="nf">print</span><span class="o">(</span><span class="n">names</span><span class="k">:</span> <span class="kt">Seq</span><span class="o">[</span><span class="kt">Option</span><span class="o">[</span><span class="kt">String</span><span class="o">]])</span><span class="k">:</span> <span class="kt">Unit</span> <span class="o">=</span> <span class="o">{</span>
- <span class="nv">names</span><span class="o">.</span><span class="py">map</span><span class="o">(</span><span class="nv">_</span><span class="o">.</span><span class="py">println</span><span class="o">)</span>
-  <span class="o">}</span>
+    <div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">print</span><span class="o">(</span><span class="n">names</span><span class="k">:</span> <span class="kt">Seq</span><span class="o">[</span><span class="kt">Option</span><span class="o">[</span><span class="kt">String</span><span class="o">]])</span><span class="k">:</span> <span class="kt">Unit</span> <span class="o">=</span> <span class="o">{</span>
+  <span class="nv">names</span><span class="o">.</span><span class="py">map</span><span class="o">(</span><span class="nv">_</span><span class="o">.</span><span class="py">println</span><span class="o">)</span>
+<span class="o">}</span>
 </code></pre></div>    </div>
   </li>
   <li>Use flatten to convert Seq[Option[Object]] to Seq[Object]<br />
   Useful for use it with other collections.
-    <div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">def</span> <span class="nf">convert</span><span class="o">(</span><span class="n">names</span><span class="k">:</span> <span class="kt">Seq</span><span class="o">[</span><span class="kt">Option</span><span class="o">[</span><span class="kt">String</span><span class="o">]])</span><span class="k">:</span> <span class="kt">Seq</span><span class="o">[</span><span class="kt">String</span><span class="o">]</span> <span class="k">=</span>
- <span class="nv">names</span><span class="o">.</span><span class="py">flatten</span>
+    <div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">convert</span><span class="o">(</span><span class="n">names</span><span class="k">:</span> <span class="kt">Seq</span><span class="o">[</span><span class="kt">Option</span><span class="o">[</span><span class="kt">String</span><span class="o">]])</span><span class="k">:</span> <span class="kt">Seq</span><span class="o">[</span><span class="kt">String</span><span class="o">]</span> <span class="k">=</span>
+  <span class="nv">names</span><span class="o">.</span><span class="py">flatten</span>
 </code></pre></div>    </div>
   </li>
   <li>Use match pattern<br />
 Similar to Try/Success/Failure
-    <div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">val</span> <span class="nv">name</span><span class="k">:</span> <span class="kt">Option</span><span class="o">[</span><span class="kt">String</span><span class="o">]</span>
-  <span class="n">name</span> <span class="k">match</span> <span class="o">{</span>
- <span class="nc">Some</span><span class="o">(</span><span class="n">name</span><span class="o">)</span> <span class="k">=&gt;</span> <span class="nf">println</span><span class="o">(</span><span class="n">name</span><span class="o">)</span>
- <span class="nc">None</span> <span class="k">=&gt;</span> <span class="nf">println</span><span class="o">(</span><span class="s">"No such name"</span><span class="o">)</span>
-  <span class="o">}</span>
+    <div class="language-scala highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">val</span> <span class="nv">name</span><span class="k">:</span> <span class="kt">Option</span><span class="o">[</span><span class="kt">String</span><span class="o">]</span>
+<span class="n">name</span> <span class="k">match</span> <span class="o">{</span>
+  <span class="nc">Some</span><span class="o">(</span><span class="n">name</span><span class="o">)</span> <span class="k">=&gt;</span> <span class="nf">println</span><span class="o">(</span><span class="n">name</span><span class="o">)</span>
+  <span class="nc">None</span> <span class="k">=&gt;</span> <span class="nf">println</span><span class="o">(</span><span class="s">"No such name"</span><span class="o">)</span>
+<span class="o">}</span>
 </code></pre></div>    </div>
   </li>
 </ol>
