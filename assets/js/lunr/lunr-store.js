@@ -10,4 +10,10 @@ var store = [{
         "tags": ["programming"],
         "url": "http://localhost:4000/programming/the-one-with-null/",
         "teaser": null
+      },{
+        "title": "Programmers best friend IDE",
+        "excerpt":"A programmer needs a good IDE A good IDE is a programmers best friend. Writing clean code requires one to spend time in their code base and to have a look and feel of various parts of code. Search files, syntax highlighting, completions, renaming, formatting with fmt flavored styles etc...","categories": ["programming"],
+        "tags": ["programming"],
+        "url": "http://localhost:4000/programming/programmers-best-friend/",
+        "teaser": null
       }]
