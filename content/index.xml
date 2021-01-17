@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contents on A techie blog!</title>
+    <link>https://abhijeetsrivastava.github.io/content/</link>
+    <description>Recent content in Contents on A techie blog!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Jul 2020 00:00:00 +0530</lastBuildDate><atom:link href="https://abhijeetsrivastava.github.io/content/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about</title>
+      <link>https://abhijeetsrivastava.github.io/content/about/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0530</pubDate>
+      
+      <guid>https://abhijeetsrivastava.github.io/content/about/</guid>
+      <description>I am currently working as a Lead Software Developer at BXBDigital, a Brambles company. I have keen interest in core computer science concepts like Compiler Design, Data Structures, Algorithms, Data Mining, Distributed Computing and Machine Learning.
+I have completed my masters in Computer Sciences from University of Delaware. During the course of my masters I was a part-time mobile application developer and later a research assistant under Dr Pollock Lori on a cloud based NSF(National Science Foundation) funded project.</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://abhijeetsrivastava.github.io/content/about/about/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0530</pubDate>
+      
+      <guid>https://abhijeetsrivastava.github.io/content/about/about/</guid>
+      <description>I am currently working as a Lead Software Developer at BXBDigital, a Brambles company. I have keen interest in core computer science concepts like Compiler Design, Data Structures, Algorithms, Data Mining, Distributed Computing and Machine Learning.
+I have completed my masters in Computer Sciences from University of Delaware. During the course of my masters I was a part-time mobile application developer and later a research assistant under Dr Pollock Lori on a cloud based NSF(National Science Foundation) funded project.</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://abhijeetsrivastava.github.io/content/posts/about/</link>
+      <pubDate>Fri, 03 Jul 2020 00:00:00 +0530</pubDate>
+      
+      <guid>https://abhijeetsrivastava.github.io/content/posts/about/</guid>
+      <description>I am currently working as a Lead Software Developer at BXBDigital, a Brambles company. I have keen interest in core computer science concepts like Compiler Design, Data Structures, Algorithms, Data Mining, Distributed Computing and Machine Learning.
+I have completed my masters in Computer Sciences from University of Delaware. During the course of my masters I was a part-time mobile application developer and later a research assistant under Dr Pollock Lori on a cloud based NSF(National Science Foundation) funded project.</description>
+    </item>
+    
+  </channel>
+</rss>

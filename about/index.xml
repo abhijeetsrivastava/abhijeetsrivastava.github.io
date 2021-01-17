@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on A techie blog!</title>
+    <link>https://abhijeetsrivastava.github.io/about/</link>
+    <description>Recent content in Abouts on A techie blog!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0530</lastBuildDate><atom:link href="https://abhijeetsrivastava.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is this another blog?</title>
+      <link>https://abhijeetsrivastava.github.io/about/2020-07-21-is-this-another-blog/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0530</pubDate>
+      
+      <guid>https://abhijeetsrivastava.github.io/about/2020-07-21-is-this-another-blog/</guid>
+      <description>Is this another blog? object Hello { println(&amp;#34;Hello World!&amp;#34;) } Having written a lot of hello world programs I want to share my experience with other developers. I could use feedback from peers.
+I am going to document code snippets, concepts, tech news, interview tips, lifestyle, and a few random stuff.
+I will provide a platform to request topics, and or share ideas with me in future. But let&amp;rsquo;s start with baby steps.</description>
+    </item>
+    
+  </channel>
+</rss>
