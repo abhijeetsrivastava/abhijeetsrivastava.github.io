@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-13T09:53:02+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">A techie blog!</title><subtitle>Having written a lot of &quot;Hello World&quot; programs, I want to share my experiences with the world. Let's have fun!</subtitle><author><name>Abhijeet Srivastava</name></author><entry><title type="html">Programmers best friend IDE</title><link href="http://localhost:4000/programming/programmers-best-friend/" rel="alternate" type="text/html" title="Programmers best friend IDE" /><published>2020-09-13T00:00:00+05:30</published><updated>2020-09-13T00:00:00+05:30</updated><id>http://localhost:4000/programming/programmers-best-friend</id><content type="html" xml:base="http://localhost:4000/programming/programmers-best-friend/">&lt;h1 id=&quot;a-programmer-needs-a-good-ide&quot;&gt;A programmer needs a good IDE&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-14T13:47:34+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">A techie blog!</title><subtitle>Having written a lot of &quot;Hello World&quot; programs, I want to share my experiences with the world. Let's have fun!</subtitle><author><name>Abhijeet Srivastava</name></author><entry><title type="html">running plan during pandemic, 2020</title><link href="http://localhost:4000/about/running-lifestyle-during-pandemic-2020/" rel="alternate" type="text/html" title="running plan during pandemic, 2020" /><published>2021-01-14T00:00:00+05:30</published><updated>2021-01-14T00:00:00+05:30</updated><id>http://localhost:4000/about/running-lifestyle-during-pandemic-2020</id><content type="html" xml:base="http://localhost:4000/about/running-lifestyle-during-pandemic-2020/">&lt;h1&gt;Running&lt;/h1&gt;
+&lt;p&gt;Running has been a part of my life since my bachelor&amp;#8217;s and I have found one
+  way or other to keep at it.&lt;/p&gt;
+&lt;h1&gt;My current schedule&lt;/h1&gt;
+&lt;h1&gt;What I would like to achieve in 2021&lt;/h1&gt;
+&lt;h1&gt;What I would recommend for beginners&lt;/h1&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;This&lt;/p&gt;</content><author><name>Abhijeet Srivastava</name></author><category term="running" /><category term="lifestyle" /><summary type="html">Running Running has been a part of my life since my bachelor&amp;#8217;s and I have found one way or other to keep at it. My current schedule What I would like to achieve in 2021 What I would recommend for beginners Conclusion This</summary></entry><entry><title type="html">Scala upgrade to 2.13</title><link href="http://localhost:4000/posts/scala-upgrade/" rel="alternate" type="text/html" title="Scala upgrade to 2.13" /><published>2020-09-27T00:00:00+05:30</published><updated>2020-09-27T00:00:00+05:30</updated><id>http://localhost:4000/posts/scala-upgrade</id><content type="html" xml:base="http://localhost:4000/posts/scala-upgrade/">&lt;p&gt;Whats next
+  upgradation&lt;/p&gt;</content><author><name>Abhijeet Srivastava</name></author><category term="scala" /><category term="programming" /><summary type="html">Whats next upgradation</summary></entry><entry><title type="html">Programmers best friend IDE</title><link href="http://localhost:4000/programming/programmers-best-friend/" rel="alternate" type="text/html" title="Programmers best friend IDE" /><published>2020-09-13T00:00:00+05:30</published><updated>2020-09-13T00:00:00+05:30</updated><id>http://localhost:4000/programming/programmers-best-friend</id><content type="html" xml:base="http://localhost:4000/programming/programmers-best-friend/">&lt;h1 id=&quot;a-programmer-needs-a-good-ide&quot;&gt;A programmer needs a good IDE&lt;/h1&gt;
 
 &lt;p&gt;A good IDE is a programmers best friend. Writing clean code requires one
 to spend time in their code base and to have a look and feel of various
@@ -221,25 +229,20 @@ of plugins which provides best flexibility.&lt;/p&gt;
 &lt;p&gt;My advice would be for one to figure out the features they mostly use and also
 keep looking at other tools for the features that they are missing.&lt;/p&gt;
 
-&lt;p&gt;Keep coding!&lt;/p&gt;</content><author><name>Abhijeet Srivastava</name></author><category term="programming" /><summary type="html">A programmer needs a good IDE</summary></entry><entry><title type="html">Is this another blog?</title><link href="http://localhost:4000/about/is-this-another-blog/" rel="alternate" type="text/html" title="Is this another blog?" /><published>2020-07-21T00:00:00+05:30</published><updated>2020-07-21T00:00:00+05:30</updated><id>http://localhost:4000/about/is-this-another-blog</id><content type="html" xml:base="http://localhost:4000/about/is-this-another-blog/">&lt;h1 id=&quot;is-this-another-blog&quot;&gt;Is this another blog?&lt;/h1&gt;
-
-&lt;div class=&quot;language-scala highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Hello&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nf&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Having written a lot of hello world programs I want to share my experience with
-other developers. I could use feedback from peers.&lt;/p&gt;
-
-&lt;p&gt;I am going to document &lt;em&gt;code snippets&lt;/em&gt;, &lt;em&gt;concepts&lt;/em&gt;, &lt;em&gt;tech news&lt;/em&gt;, &lt;em&gt;interview
-tips&lt;/em&gt;, and a few random stuff.&lt;/p&gt;
-
-&lt;p&gt;I will provide a platform to request topics, and or share ideas with me in
-future. But let’s start with baby steps.&lt;/p&gt;
-
+&lt;p&gt;Keep coding!&lt;/p&gt;</content><author><name>Abhijeet Srivastava</name></author><category term="programming" /><summary type="html">A programmer needs a good IDE</summary></entry><entry><title type="html">Is This Another Blog</title><link href="http://localhost:4000/about/is-this-another-blog/" rel="alternate" type="text/html" title="Is This Another Blog" /><published>2020-07-21T00:00:00+05:30</published><updated>2020-07-21T00:00:00+05:30</updated><id>http://localhost:4000/about/is-this-another-blog</id><content type="html" xml:base="http://localhost:4000/about/is-this-another-blog/">&lt;h1&gt;Is this another blog?&lt;/h1&gt;
+&lt;pre class=&quot;src&quot;&gt;
+object Hello {
+  println(&amp;quot;Hello World!&amp;quot;)
+}
+&lt;/pre&gt;
+&lt;p&gt;Having written a lot of hello world programs I want to share my
+  experience with other developers. I could use feedback from peers.&lt;/p&gt;
+&lt;p&gt;I am going to document &lt;i&gt;code snippets&lt;/i&gt;, &lt;i&gt;concepts&lt;/i&gt;, &lt;i&gt;tech news&lt;/i&gt;,
+  &lt;i&gt;interview tips&lt;/i&gt; &lt;i&gt;lifestyle&lt;/i&gt;, and a few random stuff.&lt;/p&gt;
+&lt;p&gt;I will provide a platform to request topics, and or share ideas with me
+  in future. But let&amp;#8217;s start with baby steps.&lt;/p&gt;
 &lt;p&gt;So, Hey!&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;/assets/world.gif?raw=true&quot; alt=&quot;Hello World&quot; /&gt;
-&lt;/p&gt;</content><author><name>Abhijeet Srivastava</name></author><category term="welcome" /><category term="blog" /><summary type="html">Is this another blog?</summary></entry><entry><title type="html">How to remove null from code?</title><link href="http://localhost:4000/programming/the-one-with-null/" rel="alternate" type="text/html" title="How to remove null from code?" /><published>2020-07-21T00:00:00+05:30</published><updated>2020-09-11T00:00:00+05:30</updated><id>http://localhost:4000/programming/the-one-with-null</id><content type="html" xml:base="http://localhost:4000/programming/the-one-with-null/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/world.gif&quot; alt=&quot;/assets/world.gif&quot; /&gt;&lt;/p&gt;</content><author><name>Abhijeet Srivastava</name></author><category term="welcome" /><category term="blog" /><summary type="html">Is this another blog? object Hello { println(&amp;quot;Hello World!&amp;quot;) } Having written a lot of hello world programs I want to share my experience with other developers. I could use feedback from peers. I am going to document code snippets, concepts, tech news, interview tips lifestyle, and a few random stuff. I will provide a platform to request topics, and or share ideas with me in future. But let&amp;#8217;s start with baby steps. So, Hey!</summary></entry><entry><title type="html">How to remove null from code?</title><link href="http://localhost:4000/programming/the-one-with-null/" rel="alternate" type="text/html" title="How to remove null from code?" /><published>2020-07-21T00:00:00+05:30</published><updated>2020-09-11T00:00:00+05:30</updated><id>http://localhost:4000/programming/the-one-with-null</id><content type="html" xml:base="http://localhost:4000/programming/the-one-with-null/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Scala: Though the concepts mentioned in this post are related to Scala, they
