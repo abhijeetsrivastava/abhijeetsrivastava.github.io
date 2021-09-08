@@ -29,9 +29,10 @@ Null, if not handled, can be troublesome just like an unhandled exception. One s
 Here are a couple of ways to avoid them.
 How to avoid them? Without initial default value  What to do when a var field in a class or method doesn&rsquo;t have an initial default value?" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://abhijeetsrivastava.github.io/posts/2020-07-21-the-one-with-null/" />
+<meta property="og:url" content="https://abhijeetsrivastava.github.io/posts/2020-07-21-the-one-with-null/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-07-21T00:00:00+05:30" />
 <meta property="article:modified_time" content="2020-07-21T00:00:00+05:30" />
+
 
 
     <title>
@@ -78,7 +79,7 @@ How to avoid them? Without initial default value  What to do when a var field in
         integrity="sha384-5f4X0lBluNY/Ib4VhGx0Pf6iDCF99VGXJIyYy7dDLY5QlEd7Ap0hICSSZA1XYbc4" crossorigin="anonymous"></script>
     
 
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.88.1" />
   </head>
 
   
@@ -175,13 +176,13 @@ exception. One should actively try and avoid its usage.</p>
 initial default value?</p>
 </blockquote>
 <p><strong>Solution</strong>: Initialize it with Option instead of null.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">case</span> <span style="color:#719e07">class</span> <span style="color:#268bd2">student</span><span style="color:#719e07">(</span>name<span style="color:#719e07">:</span> <span style="color:#dc322f">String</span><span style="color:#719e07">,</span> address<span style="color:#719e07">:</span> <span style="color:#dc322f">Option</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">])</span>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">case</span> <span style="color:#719e07">class</span> <span style="color:#268bd2">student</span><span style="color:#719e07">(</span>name<span style="color:#719e07">:</span> <span style="color:#dc322f">String</span><span style="color:#719e07">,</span> address<span style="color:#719e07">:</span> <span style="color:#dc322f">Option</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">])</span>
 </code></pre></div><h3 id="when-a-method-doesn-t-produce-the-intended-result">When a method doesn&rsquo;t produce the intended result</h3>
 <blockquote>
 <p>You may be tempted to return null.</p>
 </blockquote>
 <p><strong>Soulution</strong>: Use an Option or Try instead.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">def</span> readFile<span style="color:#719e07">(</span>fileName<span style="color:#719e07">:</span> <span style="color:#dc322f">String</span><span style="color:#719e07">)</span><span style="color:#719e07">:</span> <span style="color:#dc322f">Option</span><span style="color:#719e07">[</span><span style="color:#dc322f">List</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">]]</span> <span style="color:#719e07">=</span> <span style="color:#719e07">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">def</span> readFile<span style="color:#719e07">(</span>fileName<span style="color:#719e07">:</span> <span style="color:#dc322f">String</span><span style="color:#719e07">)</span><span style="color:#719e07">:</span> <span style="color:#dc322f">Option</span><span style="color:#719e07">[</span><span style="color:#dc322f">List</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">]]</span> <span style="color:#719e07">=</span> <span style="color:#719e07">{</span>
   <span style="color:#719e07">try</span> <span style="color:#719e07">{</span>
     <span style="color:#268bd2">Some</span><span style="color:#719e07">(</span>io<span style="color:#719e07">.</span><span style="color:#268bd2">Source</span><span style="color:#719e07">.</span>fromFile<span style="color:#719e07">(</span>fileName<span style="color:#719e07">).</span>getLines<span style="color:#719e07">.</span>toList<span style="color:#719e07">)</span>
   <span style="color:#719e07">}</span> <span style="color:#719e07">catch</span> <span style="color:#719e07">{</span>
@@ -192,7 +193,7 @@ initial default value?</p>
 <span style="color:#719e07">}</span>
 </code></pre></div><h3 id="try-success-failure-approach">Try/Success/Failure approach</h3>
 <p>This approach is also useful when using Futures.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">object</span> <span style="color:#268bd2">Test</span> <span style="color:#719e07">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">object</span> <span style="color:#268bd2">Test</span> <span style="color:#719e07">{</span>
   <span style="color:#719e07">def</span> readFile<span style="color:#719e07">(</span>fileName<span style="color:#719e07">:</span> <span style="color:#dc322f">String</span><span style="color:#719e07">)</span><span style="color:#719e07">:</span> <span style="color:#dc322f">Try</span><span style="color:#719e07">[</span><span style="color:#dc322f">List</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">]]</span> <span style="color:#719e07">=</span> <span style="color:#719e07">{</span>
     <span style="color:#268bd2">Try</span><span style="color:#719e07">(</span>io<span style="color:#719e07">.</span><span style="color:#268bd2">Source</span><span style="color:#719e07">.</span>fromFile<span style="color:#719e07">(</span>fileName<span style="color:#719e07">).</span>getLines<span style="color:#719e07">.</span>toList<span style="color:#719e07">)</span>
   <span style="color:#719e07">}</span>
@@ -208,7 +209,7 @@ initial default value?</p>
 the Null Object Pattern where it makes sense.</p>
 <p>A Null Object is an objectthat extends a base type with a &ldquo;null&rdquo; or
 neutral behavior.</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">trait</span> <span style="color:#268bd2">Animal</span> <span style="color:#719e07">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">trait</span> <span style="color:#268bd2">Animal</span> <span style="color:#719e07">{</span>
   <span style="color:#719e07">def</span> makeSound<span style="color:#719e07">()</span>
 <span style="color:#719e07">}</span>
 
@@ -221,7 +222,7 @@ neutral behavior.</p>
 <span style="color:#719e07">}</span>
 </code></pre></div><h3 id="legacy-java-code">Legacy Java Code</h3>
 <p><strong>Solution</strong>: wrap it in an Option or Some</p>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">def</span> getName<span style="color:#719e07">:</span> <span style="color:#dc322f">Option</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">]</span> <span style="color:#719e07">=</span> <span style="color:#719e07">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">def</span> getName<span style="color:#719e07">:</span> <span style="color:#dc322f">Option</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">]</span> <span style="color:#719e07">=</span> <span style="color:#719e07">{</span>
   <span style="color:#719e07">var</span> name <span style="color:#719e07">=</span> javaPerson<span style="color:#719e07">.</span>getName
   <span style="color:#719e07">if</span> <span style="color:#719e07">(</span>name <span style="color:#719e07">==</span> <span style="color:#cb4b16">null</span><span style="color:#719e07">)</span> <span style="color:#268bd2">None</span> <span style="color:#719e07">else</span> <span style="color:#268bd2">Some</span><span style="color:#719e07">(</span>name<span style="color:#719e07">)</span>
 <span style="color:#719e07">}</span>
@@ -230,7 +231,7 @@ neutral behavior.</p>
 <li>Map of Seq[Option[Object]] skips None values</li>
 </ol>
 <!-- raw HTML omitted -->
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala"><span style="color:#719e07">def</span> print<span style="color:#719e07">(</span>names<span style="color:#719e07">:</span> <span style="color:#dc322f">Seq</span><span style="color:#719e07">[</span><span style="color:#dc322f">Option</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">]])</span><span style="color:#719e07">:</span> <span style="color:#dc322f">Unit</span> <span style="color:#719e07">=</span> <span style="color:#719e07">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala"><span style="color:#719e07">def</span> print<span style="color:#719e07">(</span>names<span style="color:#719e07">:</span> <span style="color:#dc322f">Seq</span><span style="color:#719e07">[</span><span style="color:#dc322f">Option</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">]])</span><span style="color:#719e07">:</span> <span style="color:#dc322f">Unit</span> <span style="color:#719e07">=</span> <span style="color:#719e07">{</span>
   names<span style="color:#719e07">.</span>map<span style="color:#719e07">(</span><span style="color:#719e07">_</span><span style="color:#719e07">.</span>println<span style="color:#719e07">)</span>
 <span style="color:#719e07">}</span>
 </code></pre></div><ol>
@@ -238,14 +239,14 @@ neutral behavior.</p>
 Useful for use it with other collections.</li>
 </ol>
 <!-- raw HTML omitted -->
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">def</span> convert<span style="color:#719e07">(</span>names<span style="color:#719e07">:</span> <span style="color:#dc322f">Seq</span><span style="color:#719e07">[</span><span style="color:#dc322f">Option</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">]])</span><span style="color:#719e07">:</span> <span style="color:#dc322f">Seq</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">]</span> <span style="color:#719e07">=</span>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">def</span> convert<span style="color:#719e07">(</span>names<span style="color:#719e07">:</span> <span style="color:#dc322f">Seq</span><span style="color:#719e07">[</span><span style="color:#dc322f">Option</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">]])</span><span style="color:#719e07">:</span> <span style="color:#dc322f">Seq</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">]</span> <span style="color:#719e07">=</span>
   names<span style="color:#719e07">.</span>flatten
 </code></pre></div><ol>
 <li>Use match pattern<!-- raw HTML omitted -->
 Similar to Try/Success/Failure</li>
 </ol>
 <!-- raw HTML omitted -->
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">val</span> name<span style="color:#719e07">:</span> <span style="color:#dc322f">Option</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">]</span>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-SCALA" data-lang="SCALA"><span style="color:#719e07">val</span> name<span style="color:#719e07">:</span> <span style="color:#dc322f">Option</span><span style="color:#719e07">[</span><span style="color:#dc322f">String</span><span style="color:#719e07">]</span>
 name <span style="color:#719e07">match</span> <span style="color:#719e07">{</span>
   <span style="color:#268bd2">Some</span><span style="color:#719e07">(</span>name<span style="color:#719e07">)</span> <span style="color:#719e07">=&gt;</span> println<span style="color:#719e07">(</span>name<span style="color:#719e07">)</span>
   <span style="color:#268bd2">None</span> <span style="color:#719e07">=&gt;</span> println<span style="color:#719e07">(</span><span style="color:#2aa198">&#34;No such name&#34;</span><span style="color:#719e07">)</span>
@@ -298,7 +299,7 @@ in our code. I have listed a few ways to do so.</p>
     
       
         
-        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+        <script src="/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js"></script>
       
     
 

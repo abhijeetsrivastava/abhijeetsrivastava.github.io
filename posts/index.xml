@@ -6,7 +6,17 @@
     <description>Recent content in Posts on A techie blog!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 31 Jan 2021 22:20:00 +0530</lastBuildDate><atom:link href="https://abhijeetsrivastava.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Sep 2021 11:22:00 +0530</lastBuildDate><atom:link href="https://abhijeetsrivastava.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prometheus tut - Monitoring and Alarms</title>
+      <link>https://abhijeetsrivastava.github.io/posts/2021-09-08-prometheus_tut_monitor_and_alarms/</link>
+      <pubDate>Wed, 08 Sep 2021 11:22:00 +0530</pubDate>
+      
+      <guid>https://abhijeetsrivastava.github.io/posts/2021-09-08-prometheus_tut_monitor_and_alarms/</guid>
+      <description>Why is monitoring an important part of micro services architecture? Softwares need to be reliable and available most of the times. This has revolutionized the way softwares are created. Thus monitoring services is a critical piece which allows us to control systems. The more complex a system gets, harder it is to understand its performance and troubleshoot problems.
+Prometheus Prometheus is an open source software for monitoring systems. It stores its metrics as a time series data.</description>
+    </item>
+    
     <item>
       <title>Decorator (waffle) design pattern</title>
       <link>https://abhijeetsrivastava.github.io/posts/2021-01-31-decorator_waffle_design_pattern/</link>
@@ -39,6 +49,18 @@ Its of paramount importance that one knows their own IDE same as they would know
     </item>
     
     <item>
+      <title>Is this another blog?</title>
+      <link>https://abhijeetsrivastava.github.io/posts/2020-07-21-is-this-another-blog/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhijeetsrivastava.github.io/posts/2020-07-21-is-this-another-blog/</guid>
+      <description>object Hello { println(&amp;#34;Hello World!&amp;#34;) } Having written a lot of hello world programs I want to share my experience with other developers. I could use feedback from peers.
+I am going to document code snippets, concepts, tech news, interview tips, lifestyle, and a few random stuff.
+I will provide a platform to request topics, and or share ideas with me in future. But let&amp;rsquo;s start with baby steps.
+So, Hey!</description>
+    </item>
+    
+    <item>
       <title>How to remove null from code?</title>
       <link>https://abhijeetsrivastava.github.io/posts/2020-07-21-the-one-with-null/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0530</pubDate>
@@ -49,18 +71,6 @@ Its of paramount importance that one knows their own IDE same as they would know
 Null, if not handled, can be troublesome just like an unhandled exception. One should actively try and avoid its usage.
 Here are a couple of ways to avoid them.
 How to avoid them? Without initial default value  What to do when a var field in a class or method doesn&amp;rsquo;t have an initial default value?</description>
-    </item>
-    
-    <item>
-      <title>Is this another blog?</title>
-      <link>https://abhijeetsrivastava.github.io/posts/2020-07-21-is-this-another-blog/</link>
-      <pubDate>Tue, 21 Jul 2020 00:00:00 +0530</pubDate>
-      
-      <guid>https://abhijeetsrivastava.github.io/posts/2020-07-21-is-this-another-blog/</guid>
-      <description>object Hello { println(&amp;#34;Hello World!&amp;#34;) } Having written a lot of hello world programs I want to share my experience with other developers. I could use feedback from peers.
-I am going to document code snippets, concepts, tech news, interview tips, lifestyle, and a few random stuff.
-I will provide a platform to request topics, and or share ideas with me in future. But let&amp;rsquo;s start with baby steps.
-So, Hey!</description>
     </item>
     
   </channel>

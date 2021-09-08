@@ -23,9 +23,10 @@ What&rsquo;s a waffle got to do with Design pattern? Well, let&rsquo;s say if yo
 For a chef this is not a complex recipe. They make plain waffles and then put toppings based on customer choice.
 What&rsquo;s a waffle got to do with Design pattern? Well, let&rsquo;s say if you are trying to print a receipt it would have a header, item details and a footer." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://abhijeetsrivastava.github.io/posts/2021-01-31-decorator_waffle_design_pattern/" />
+<meta property="og:url" content="https://abhijeetsrivastava.github.io/posts/2021-01-31-decorator_waffle_design_pattern/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-01-31T22:20:00+05:30" />
 <meta property="article:modified_time" content="2021-01-31T22:20:00+05:30" />
+
 
 
     <title>
@@ -72,7 +73,7 @@ What&rsquo;s a waffle got to do with Design pattern? Well, let&rsquo;s say if yo
         integrity="sha384-5f4X0lBluNY/Ib4VhGx0Pf6iDCF99VGXJIyYy7dDLY5QlEd7Ap0hICSSZA1XYbc4" crossorigin="anonymous"></script>
     
 
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.88.1" />
   </head>
 
   
@@ -174,9 +175,8 @@ different entities and hence must remain separate.</p>
 detail being decorated with a header and footer.</p>
 <p>Or when one has a waffle and many toppings to use from.</p>
 <h2 id="different-parts-of-a-decorator">Different parts of a decorator</h2>
-<figure>
-    <img src="/ox-hugo/2021-02-02_11-24-18_screenshot.png"
-         alt="Figure 1: Decorator pattern. Source: wiki"/> <figcaption>
+<figure><img src="/ox-hugo/2021-02-02_11-24-18_screenshot.png"
+         alt="Figure 1: Decorator pattern. Source: wiki"/><figcaption>
             <p>Figure 1: Decorator pattern. Source:  <a href="https://en.wikipedia.org/wiki/Decorator%5Fpattern">wiki</a></p>
         </figcaption>
 </figure>
@@ -204,7 +204,7 @@ is implemented by <strong>PlainWaffle.</strong></li>
 <p>This is where you instantiate classes. This is also where you decide the
 sequence in which you would want to decorate by adding decorators to your component.</p>
 <h2 id="sample">Sample</h2>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala"><span style="color:#719e07">trait</span> <span style="color:#268bd2">Waffle</span> <span style="color:#719e07">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala"><span style="color:#719e07">trait</span> <span style="color:#268bd2">Waffle</span> <span style="color:#719e07">{</span>
   <span style="color:#719e07">def</span> cost<span style="color:#719e07">:</span> <span style="color:#dc322f">Double</span>
   <span style="color:#719e07">def</span> ingredients<span style="color:#719e07">:</span> <span style="color:#dc322f">String</span>
   <span style="color:#719e07">override</span> <span style="color:#719e07">def</span> toString<span style="color:#719e07">:</span> <span style="color:#dc322f">String</span> <span style="color:#719e07">=</span> <span style="color:#2aa198">s&#34;cost: </span><span style="color:#2aa198">${</span><span style="color:#719e07">this</span><span style="color:#719e07">.</span>cost<span style="color:#2aa198">}</span><span style="color:#2aa198"> ingredients: </span><span style="color:#2aa198">${</span><span style="color:#719e07">this</span><span style="color:#719e07">.</span>ingredients<span style="color:#2aa198">}</span><span style="color:#2aa198">&#34;</span>
@@ -246,7 +246,7 @@ sequence in which you would want to decorate by adding decorators to your compon
 <span style="color:#268bd2">Factory</span><span style="color:#719e07">.</span>main<span style="color:#719e07">(</span><span style="color:#268bd2">Array</span><span style="color:#719e07">())</span>
 
 </code></pre></div><blockquote>
-<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">cost: 1.0 ingredients: Waffle
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">cost: 1.0 ingredients: Waffle
 cost: 1.5 ingredients: Waffle &amp; Banana
 cost: 2.5 ingredients: Waffle &amp; Banana &amp; Strawberry
 </code></pre></div></blockquote>
@@ -302,7 +302,7 @@ easily since all components are abstracted out.</p>
     
       
         
-        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+        <script src="/js/dark-mode.min.aee9c8a464eb7b3534c7110f7c5e169e7039e2fd92710e0626d451d6725af137.js"></script>
       
     
 

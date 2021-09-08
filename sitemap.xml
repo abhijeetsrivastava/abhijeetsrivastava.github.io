@@ -1,78 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://abhijeetsrivastava.github.io/</loc>
-    <lastmod>2021-01-31T22:20:00+05:30</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-09-08T11:22:00+05:30</lastmod>
+  </url><url>
+    <loc>https://abhijeetsrivastava.github.io/posts/</loc>
+    <lastmod>2021-09-08T11:22:00+05:30</lastmod>
+  </url><url>
+    <loc>https://abhijeetsrivastava.github.io/posts/2021-09-08-prometheus_tut_monitor_and_alarms/</loc>
+    <lastmod>2021-09-08T11:22:00+05:30</lastmod>
+  </url><url>
     <loc>https://abhijeetsrivastava.github.io/posts/2021-01-31-decorator_waffle_design_pattern/</loc>
     <lastmod>2021-01-31T22:20:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://abhijeetsrivastava.github.io/posts/</loc>
-    <lastmod>2021-01-31T22:20:00+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://abhijeetsrivastava.github.io/contact/</loc>
     <lastmod>2021-01-17T12:09:00+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://abhijeetsrivastava.github.io/posts/2021-01-14-running-lifestyle-during-pandemic-2020/</loc>
     <lastmod>2021-01-14T09:40:00+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://abhijeetsrivastava.github.io/posts/2020-09-12-programmers-best-friend/</loc>
     <lastmod>2020-09-13T00:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://abhijeetsrivastava.github.io/posts/2020-07-21-is-this-another-blog/</loc>
+    <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abhijeetsrivastava.github.io/posts/2020-07-21-the-one-with-null/</loc>
     <lastmod>2020-07-21T00:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://abhijeetsrivastava.github.io/posts/2020-07-21-is-this-another-blog/</loc>
-    <lastmod>2020-07-21T00:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://abhijeetsrivastava.github.io/content/about/</loc>
     <lastmod>2020-07-03T00:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://abhijeetsrivastava.github.io/content/about/about/</loc>
     <lastmod>2020-07-03T00:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://abhijeetsrivastava.github.io/content/posts/about/</loc>
     <lastmod>2020-07-03T00:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://abhijeetsrivastava.github.io/about/</loc>
     <lastmod>2020-07-03T00:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://abhijeetsrivastava.github.io/content/</loc>
     <lastmod>2020-07-03T00:00:00+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://abhijeetsrivastava.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://abhijeetsrivastava.github.io/tags/</loc>
   </url>
-  
 </urlset>
