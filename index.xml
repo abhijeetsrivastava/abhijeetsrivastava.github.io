@@ -6,7 +6,17 @@
     <description>Recent content on A techie blog!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Sep 2021 11:22:00 +0530</lastBuildDate><atom:link href="https://abhijeetsrivastava.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Sep 2021 14:59:00 +0530</lastBuildDate><atom:link href="https://abhijeetsrivastava.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notetaking for the long run</title>
+      <link>https://abhijeetsrivastava.github.io/posts/2021-09-09-notetaking_for_the_long_run/</link>
+      <pubDate>Thu, 09 Sep 2021 14:59:00 +0530</pubDate>
+      
+      <guid>https://abhijeetsrivastava.github.io/posts/2021-09-09-notetaking_for_the_long_run/</guid>
+      <description>In tech world, one would want a second brain. Yes right! if you haven&amp;rsquo;t heard of second brain it is just a personal data storage where one could query for data. This second brain helps you focus on things that are important to you and to your work.
+There is the Zettelkasten method of notetaking which I find very helpful. I am not trying to reinvent the wheel, but just laying out the ideas which I think are most helpful during and after notetaking.</description>
+    </item>
+    
     <item>
       <title>Prometheus tut - Monitoring and Alarms</title>
       <link>https://abhijeetsrivastava.github.io/posts/2021-09-08-prometheus_tut_monitor_and_alarms/</link>
