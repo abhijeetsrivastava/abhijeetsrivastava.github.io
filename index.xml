@@ -6,7 +6,19 @@
     <description>Recent content on A techie blog!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Sep 2021 14:59:00 +0530</lastBuildDate><atom:link href="https://abhijeetsrivastava.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Oct 2021 19:39:00 +0530</lastBuildDate><atom:link href="https://abhijeetsrivastava.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dotfiles: Why you need them and how to use them.</title>
+      <link>https://abhijeetsrivastava.github.io/posts/2021-10-21-dotfiles_why_you_need_them_and_how_to_use_them/</link>
+      <pubDate>Thu, 21 Oct 2021 19:39:00 +0530</pubDate>
+      
+      <guid>https://abhijeetsrivastava.github.io/posts/2021-10-21-dotfiles_why_you_need_them_and_how_to_use_them/</guid>
+      <description>Every pragmatic programmer has their own preference when it comes to tools, IDE, etc. Nowadays even desktop setup, keyboards etc.
+I am going to highlight one such preference of tools and setups.
+It&amp;rsquo;s a great idea to keep a list of popular software you need and any packages for text editors or IDE.
+Let&amp;rsquo;s focus on macos which I am using since last 4 years now. Doing a similar setup in linux is straight forward and could be done in windows too.</description>
+    </item>
+    
     <item>
       <title>Notetaking for the long run</title>
       <link>https://abhijeetsrivastava.github.io/posts/2021-09-09-notetaking_for_the_long_run/</link>
